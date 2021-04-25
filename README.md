@@ -1,6 +1,6 @@
 # Project 1: Covid-19 Vaccination Campaign in the US
 
-## Collaborators
+## Contributors
 * Ana Juárez
 * María Inés Oñate
 * Mariana Geffroy López
