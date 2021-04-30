@@ -1,3 +1,10 @@
+## HUGE files
+Case_Surveillance_Covid19.csv
+Vaccine_Hesitancy_Covid19.csv
+
+## API Keys
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
