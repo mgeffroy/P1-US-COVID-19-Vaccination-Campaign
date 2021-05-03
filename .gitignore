@@ -3,7 +3,7 @@ Case_Surveillance_Covid19.csv
 Vaccine_Hesitancy_Covid19.csv
 
 ## API Keys
-
+Socrata_Key.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
