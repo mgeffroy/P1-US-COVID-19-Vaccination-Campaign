@@ -1,9 +1,15 @@
-## HUGE files
-Case_Surveillance_Covid19.csv
-Vaccine_Hesitancy_Covid19.csv
+## CSV files
+*.csv
 
 ## API Keys
-Socrata_Key.py
+api_keys.py
+
+## App Tokens
+app_tokens.py
+
+------------------------------
+## PYTHON TEMPLATE
+------------------------------
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
