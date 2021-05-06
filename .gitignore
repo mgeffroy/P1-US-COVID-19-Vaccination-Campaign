@@ -1,5 +1,10 @@
-## CSV files
-*.csv
+## BIG CSV files
+Case_Surveillance_Covid19.csv
+US_Census2019_asrh.csv
+US_Census2019_totals.csv
+Vaccine_Hesitancy_Covid19.csv
+cc-est2019-alldata.csv
+
 
 ## API Keys
 api_keys.py
