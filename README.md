@@ -8,8 +8,8 @@
 
 ## Project Folder ## 
 Index: 
-Project Proposal 
-Methodology 
-White paper 
-Presentation 
+	-Project Proposal 
+	-Methodology 
+	-White paper 
+	-Presentation 
 https://docs.google.com/document/d/1UPLd5xbPfAK9bMrdlEcb-gs6C2U-yQTLkZvhf70ggmM/edit?usp=sharing
