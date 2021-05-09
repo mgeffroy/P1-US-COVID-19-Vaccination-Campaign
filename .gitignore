@@ -3,18 +3,21 @@ Case_Surveillance_Covid19.csv
 US_Census2019_asrh.csv
 US_Census2019_totals.csv
 Vaccine_Hesitancy_Covid19.csv
+
 ## Original CSV files
 Vaccine_Hesitancy_for_COVID-19__County_and_local_estimates.csv
 cc-est2019-alldata.csv
 co-est2019-alldata.csv
 uscities.csv
 
-
 ## API Keys
 api_keys.py
 
 ## App Tokens
 app_tokens.py
+
+## Mac OS 
+.DS_Store
 
 ------------------------------
 ## PYTHON TEMPLATE
