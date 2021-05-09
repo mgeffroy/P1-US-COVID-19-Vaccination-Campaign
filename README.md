@@ -43,13 +43,12 @@ Determine the effectiveness of the US vaccination campaign in attending the popu
    - Store Analysis Datasets (csv)
 
 ## Project Folder ## 
-
-Index: 
-   *Project Proposal
+### Index: 
+ * Project Proposal
 https://docs.google.com/document/d/1ccgrN0LmAATHM0wrPo6OQ3clvzeYnQ_-r2q8SMwciCA/edit#
-   *Methodology 
-   *White paper 
-   *Presentation 
+ * Methodology 
+ * White paper 
+ * Presentation 
 https://docs.google.com/document/d/1UPLd5xbPfAK9bMrdlEcb-gs6C2U-yQTLkZvhf70ggmM/edit?usp=sharing
 
 ## Difficulties
