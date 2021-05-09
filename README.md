@@ -15,16 +15,13 @@ Determine the effectiveness of the US vaccination campaign in attending the popu
 
 ## Follow up questions
 
-Which are the variables that could describe risk/affected populations? 
-How can we confirm if vaccination campaigns and coverage are being applied to these populations?
-
-How do we measure the most affected counties?→ number of new infections (incidence)
-How do we measure risk populations? →  Use of social vulnerability index (SVI)
-
-How can we confirm if vaccination campaigns and coverage are being applied to these populations?
-How do we measure vaccination coverage? → Percent of total population vaccinated
-
-Which will be our population of study? → US Counties
+* Which are the variables that could describe risk/affected populations? 
+  - How can we confirm if vaccination campaigns and coverage are being applied to these populations?
+* How do we measure the most affected counties?→ number of new infections (incidence)
+* How do we measure risk populations? →  Use of social vulnerability index (SVI)
+* How can we confirm if vaccination campaigns and coverage are being applied to these populations?
+* How do we measure vaccination coverage? → Percent of total population vaccinated
+* Which will be our population of study? → US Counties
 
 ## Data Cleanup & Exploration
 
