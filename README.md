@@ -29,21 +29,21 @@ Which will be our population of study? → US Counties
 ## Data Cleanup & Exploration
 
 1. Data architecture
-    a. Explore selected datasets
-    b. Define common key to merge data (by county)
+a. Explore selected datasets
+b. Define common key to merge data (by county)
 2. Data retrieval
-    a. Download datasets (csv) / Request data (api)
-    b. Build DataFrames
-    c. Select / discard data fields 
+a. Download datasets (csv) / Request data (api)
+b. Build DataFrames
+c. Select / discard data fields 
 3. Data cleaning
-    a. Validate & Standardize data (header, type, format)
-    b. Remove invalid values
-    c. Convert available data into processable values
-    d. Index data
+a. Validate & Standardize data (header, type, format)
+b. Remove invalid values
+c. Convert available data into processable values
+d. Index data
 4. Data processing
-    a. Filter, group & unstack data
-    b. Merge datasets → Build Analysis Datasets
-    c. Store Analysis Datasets (csv)
+a. Filter, group & unstack data
+b. Merge datasets → Build Analysis Datasets
+c. Store Analysis Datasets (csv)
 
 ## Project Folder ## 
 
@@ -58,26 +58,26 @@ https://docs.google.com/document/d/1UPLd5xbPfAK9bMrdlEcb-gs6C2U-yQTLkZvhf70ggmM/
 ## Difficulties
 
 •	Case surveillance dataset (Covid cases by county)
-    o	4.7 million entries = 3 Gb csv file 
-    o	We bumped into a lot of API restrictions (app token, throttling limits)
-    o	It had it’s own language Socrata Query Language (SoQL)
+    4.7 million entries = 3 Gb csv file 
+    We bumped into a lot of API restrictions (app token, throttling limits)
+    It had it’s own language Socrata Query Language (SoQL)
 Solution: lots of trial & error, python time.sleep()
 
 •	Significant amount of missing and NA values in many rows.
-    o	Conflicts with the Sample size vs Population
+    Conflicts with the Sample size vs Population
 Solution: dropna(), !=0
 
 •	CDC datasets
-   o	Data that doesn't match any county or state so that information and, therefore, can’t be pointed out to a specific place.
-   o	Many counties without information because of the lack of informations in some states. 
+   Data that doesn't match any county or state so that information and, therefore, can’t be pointed out to a specific place.
+   Many counties without information because of the lack of informations in some states. 
 Solution: “if life gives you lemons…” We did the best with what we had. 
 
 ## Hypothetical future steps (If we had more time)
 
 •	Why is there a low vaccination coverage cluster? (counties with 5-10% affected population).
 •	Is the vaccine rollout & affected population different depending on other variables:
-    o	Political preference (Democrats vs Republicans).
-    o	Reluctancy to wear masks.
+    Political preference (Democrats vs Republicans).
+    Reluctancy to wear masks.
 
 
 
