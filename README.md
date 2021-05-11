@@ -45,11 +45,11 @@ Determine the effectiveness of the US vaccination campaign in attending the popu
 ## Project Folder ## 
 ### Index: 
  * Project Proposal
-   - https://docs.google.com/document/d/1ccgrN0LmAATHM0wrPo6OQ3clvzeYnQ_-r2q8SMwciCA/edit#
+   - https://docs.google.com/document/d/1ccgrN0LmAATHM0wrPo6OQ3clvzeYnQ_-r2q8SMwciCA/edit?usp=sharing
  * White paper
-   - https://docs.google.com/document/d/1UPLd5xbPfAK9bMrdlEcb-gs6C2U-yQTLkZvhf70ggmM/edit#heading=h.lx59x8j6aaf7 
+   - https://docs.google.com/document/d/1UPLd5xbPfAK9bMrdlEcb-gs6C2U-yQTLkZvhf70ggmM/edit?usp=sharing
  * Presentation 
-   - https://docs.google.com/presentation/d/1JYUu2L8ZPqYlXaxa46UvYFYL6I6oJe5IQVBFXseV0i0/edit#slide=id.g7afa7205a7_0_0
+   - https://docs.google.com/presentation/d/1JYUu2L8ZPqYlXaxa46UvYFYL6I6oJe5IQVBFXseV0i0/edit?usp=sharing
 
 ## Difficulties
 
