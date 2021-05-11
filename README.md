@@ -49,7 +49,7 @@ Determine the effectiveness of the US vaccination campaign in attending the popu
  * White paper
    - https://docs.google.com/document/d/1UPLd5xbPfAK9bMrdlEcb-gs6C2U-yQTLkZvhf70ggmM/edit#heading=h.lx59x8j6aaf7 
  * Presentation 
-   - https://docs.google.com/document/d/1UPLd5xbPfAK9bMrdlEcb-gs6C2U-yQTLkZvhf70ggmM/edit?usp=sharing
+   - https://docs.google.com/presentation/d/1JYUu2L8ZPqYlXaxa46UvYFYL6I6oJe5IQVBFXseV0i0/edit#slide=id.g7afa7205a7_0_0
 
 ## Difficulties
 
