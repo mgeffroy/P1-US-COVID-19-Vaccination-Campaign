@@ -48,9 +48,9 @@ The `data_input` folder on local repository must contain the following files:
    - *co-est2019-alldata.csv*
    - https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/counties/totals/co-est2019-alldata.csv
 
-+ **simplemaps:** United States Counties Database (https://simplemaps.com/data/us-counties)
++ **simplemaps:** United States Cities Database (https://simplemaps.com/data/us-cities)
    - *uscities.csv*
-   - https://simplemaps.com/static/data/us-counties/1.7/basic/simplemaps_uscounties_basicv1.7.zip
+   - https://simplemaps.com/static/data/us-cities/1.73/basic/simplemaps_uscities_basicv1.73.zip
 
 
 ## Data Cleanup & Exploration
