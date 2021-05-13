@@ -8,7 +8,8 @@
 
 ## Project Description/Outline
 
-Determine the effectiveness of the US vaccination campaign in attending the population that is most affected by covid-19 disease. This is achieved by revising the total number of doses applied, vaccination coverage, population demographics such as gender, race, socioeconomic status, and education, versus epidemiologic variables: incidence, prevalence, hospitalization, UCI, death numbers.
+The scope of this study is to determine the effectiveness of the US vaccination campaign in attending the population that is most affected by covid-19 disease. This is achieved by revising the total number of doses applied, vaccination coverage, population demographics such as gender, race, socioeconomic status, and education, versus epidemiologic variables: incidence, prevalence, hospitalization, UCI, death numbers.
+
 
 ## Research question
 ### Is the vaccination roll-out campaign covering the population most affected by covid-19 in the United States?
@@ -22,6 +23,35 @@ Determine the effectiveness of the US vaccination campaign in attending the popu
 * How can we confirm if vaccination campaigns and coverage are being applied to these populations?
 * How do we measure vaccination coverage? → Percent of total population vaccinated
 * Which will be our population of study? → US Counties
+
+
+## Project Folder 
+### Index 
++ **Project Proposal**
+   - https://docs.google.com/document/d/1ccgrN0LmAATHM0wrPo6OQ3clvzeYnQ_-r2q8SMwciCA/edit?usp=sharing
++ **White paper**
+   - https://docs.google.com/document/d/1UPLd5xbPfAK9bMrdlEcb-gs6C2U-yQTLkZvhf70ggmM/edit?usp=sharing
++ **Presentation** 
+   - https://docs.google.com/presentation/d/1JYUu2L8ZPqYlXaxa46UvYFYL6I6oJe5IQVBFXseV0i0/edit?usp=sharing
+
+## Data Input
+
+The `data_input` folder on local repository must contain the following files:
+
++ **Data.CDC.gov:** Vaccine Hesitancy for COVID-19: County and local estimates
+   - *Vaccine_Hesitancy_for_COVID-19__County_and_local_estimates.csv*
+   - https://data.cdc.gov/api/views/q9mh-h2tw/rows.csv?accessType=DOWNLOAD&api_foundry=true
+
++ **United States Census Bureau:**
+   - *cc-est2019-alldata.csv*
+   - https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/counties/asrh/cc-est2019-alldata.csv
+   - *co-est2019-alldata.csv*
+   - https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/counties/totals/co-est2019-alldata.csv
+
++ **simplemaps:** United States Counties Database (https://simplemaps.com/data/us-counties)
+   - *uscities.csv*
+   - https://simplemaps.com/static/data/us-counties/1.7/basic/simplemaps_uscounties_basicv1.7.zip
+
 
 ## Data Cleanup & Exploration
 
@@ -42,14 +72,21 @@ Determine the effectiveness of the US vaccination campaign in attending the popu
    - Merge datasets → Build Analysis Datasets
    - Store Analysis Datasets (csv)
 
-## Project Folder ## 
-### Index: 
- * Project Proposal
-   - https://docs.google.com/document/d/1ccgrN0LmAATHM0wrPo6OQ3clvzeYnQ_-r2q8SMwciCA/edit?usp=sharing
- * White paper
-   - https://docs.google.com/document/d/1UPLd5xbPfAK9bMrdlEcb-gs6C2U-yQTLkZvhf70ggmM/edit?usp=sharing
- * Presentation 
-   - https://docs.google.com/presentation/d/1JYUu2L8ZPqYlXaxa46UvYFYL6I6oJe5IQVBFXseV0i0/edit?usp=sharing
+
+## Data Visualization
+
+| Counties Incidence Timeline | Vaccinated Population by Age Group |
+| --- | --- |
+| ![LinePlot](figures/rel_val_counties.png) | ![BarChart](figures/age_rel_grahp.png) |
+
+| Cases vs. Vaccination vs. SVI | Linear regression results |
+| --- | --- |
+| ![ScatterPlot](figures/3_variable_scatter.png) | ![BoxPlot](figures/vaccination_boxplot.png) |
+
+| Heatmap Overlay (Vaccination vs SVI) |
+| --- |
+| ![Heatmap](figures/heatmap_overlay.png) |
+
 
 ## Difficulties
 
@@ -75,6 +112,10 @@ Solution: “if life gives you lemons…” We did the best with what we had.
   - Political preference (Democrats vs Republicans).
   - Reluctancy to wear masks.
 
+
+## Notes
+1. For adequate data retrieval and heatmap visualization it is required to have App Token from Data.CDC.gov and Api Key from Google Developers in a `config.py` file on local repository.
+2. Jupyter Notebooks `P1.1_Data_Collection.ipynb` &  `P1.2_Data_Analysis.ipynb` are not correctly displayed in the GitHub interface. It is strongly suggested to download these files in order to run them natively.
 
 
 
