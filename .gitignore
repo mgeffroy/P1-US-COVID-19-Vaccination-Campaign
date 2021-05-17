@@ -10,6 +10,9 @@ cc-est2019-alldata.csv
 co-est2019-alldata.csv
 uscities.csv
 
+## Config
+config.py
+
 ## API Keys
 api_keys.py
 
